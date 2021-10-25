@@ -1,0 +1,27 @@
+// custom variables
+@import 'variables';
+
+// custom mixins
+@import 'mixins/font-face';
+@import 'mixins/transition';
+
+// base styles
+@import 'base/base';
+@import 'base/typography';
+
+#app {
+  height: 100%;
+  text-align: center;
+  color: #fff;
+  font-size: 2rem;
+  padding-top: 100px;
+}
+
+.link {
+  color: #fff;
+
+  &:hover,
+  &:focus {
+    text-decoration: none;
+  }
+}
